@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="wwwroot\Images\images\about-img.jpg" />
+    <None Include="wwwroot\Images\images\c1.png" />
+    <None Include="wwwroot\Images\images\c2.png" />
+    <None Include="wwwroot\Images\images\c3.png" />
+    <None Include="wwwroot\Images\images\c4.png" />
+    <None Include="wwwroot\Images\images\c5.png" />
+    <None Include="wwwroot\Images\images\c6.png" />
+    <None Include="wwwroot\Images\images\call.png" />
+    <None Include="wwwroot\Images\images\experience-img.jpg" />
+    <None Include="wwwroot\Images\images\f1.png" />
+    <None Include="wwwroot\Images\images\f2.png" />
+    <None Include="wwwroot\Images\images\f3.png" />
+    <None Include="wwwroot\Images\images\f4.png" />
+    <None Include="wwwroot\Images\images\fb.png" />
+    <None Include="wwwroot\Images\images\freelance-img.jpg" />
+    <None Include="wwwroot\Images\images\instagram.png" />
+    <None Include="wwwroot\Images\images\linkedin.png" />
+    <None Include="wwwroot\Images\images\location.png" />
+    <None Include="wwwroot\Images\images\logo.png" />
+    <None Include="wwwroot\Images\images\mail.png" />
+    <None Include="wwwroot\Images\images\menu.png" />
+    <None Include="wwwroot\Images\images\next-angle.png" />
+    <None Include="wwwroot\Images\images\next.png" />
+    <None Include="wwwroot\Images\images\prev-angle.png" />
+    <None Include="wwwroot\Images\images\prev.png" />
+    <None Include="wwwroot\Images\images\quote.png" />
+    <None Include="wwwroot\Images\images\search-icon.png" />
+    <None Include="wwwroot\Images\images\slider-img.png" />
+    <None Include="wwwroot\Images\images\twitter.png" />
+    <None Include="wwwroot\Images\images\youtube.png" />
+  </ItemGroup>
+
+</Project>
